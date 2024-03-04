@@ -1,0 +1,19 @@
+@import "_reset.css";
+@import "_fonts.css";
+@import "_variables_typography.css";
+@import "_variables_colors.css";
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+#root {
+    display: block;
+    height: 100%;
+}

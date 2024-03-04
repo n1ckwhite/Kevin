@@ -1,0 +1,104 @@
+:root {
+    /*all*/
+    --text-color-white: rgba(255,255,255,1);
+    --text-color-black: rgba(0,0,0,1);
+    /* blue */
+    --blue-light-border: 1px solid rgba(233, 235, 248, 1);
+    --blue-light-font: rgb(0,0,0);
+    --blue-light-color: rgba(234, 241, 250, 1);
+
+    --blue-light-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --blue-light-hover-font: rgb(0,0,0);
+    --blue-light-hover-color: rgba(224, 233, 248, 1);
+
+    --blue-light-active-border: 1px solid rgba(233, 235, 248, 1);
+    --blue-light-active-font: rgb(0,0,0);
+    --blue-light-active-color: rgba(190, 210, 241, 1);
+
+    --blue-normal-border: 1px solid rgba(233, 235, 248, 1);
+    --blue-normal-font: rgb(0,0,0);
+    --blue-normal-color: rgba(46, 111, 209, 1);
+
+    --blue-normal-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --blue-normal-hover-font: rgb(0,0,0);
+    --blue-normal-hover-color: rgba(41, 100, 188, 1);
+
+    --blue-normal-active-border: 1px solid rgba(233, 235, 248, 1);
+    --blue-normal-active-font: rgb(0,0,0);
+    --blue-normal-active-color: rgba(37, 89, 167, 1);
+
+    /* red */
+    --red-light-border: 1px solid rgba(233, 235, 248, 1);
+    --red-light-font: rgb(0,0,0);
+    --red-light-color: rgba(252, 232, 236, 1);
+
+    --red-light-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --red-light-hover-font: rgb(0,0,0);
+    --red-light-hover-color: rgba(251, 221, 227, 1);
+
+    --red-light-active-border: 1px solid rgba(233, 235, 248, 1);
+    --red-light-active-font: rgb(0,0,0);
+    --red-light-active-color: rgba(247, 184, 196, 1);
+
+    --red-normal-border: 1px solid rgba(233, 235, 248, 1);
+    --red-normal-font: rgb(0,0,0);
+    --red-normal-color: rgba(229, 25, 66, 1);
+
+    --red-normal-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --red-normal-hover-font: rgb(0,0,0);
+    --red-normal-hover-color: rgba(206, 23, 59, 1);
+
+    --red-normal-active-border: 1px solid rgba(233, 235, 248, 1);
+    --red-normal-active-font: rgb(0,0,0);
+    --red-normal-active-color: rgba(183, 20, 53, 1);
+
+    /* green */
+    --green-light-border: 1px solid rgba(233, 235, 248, 1);
+    --green-light-font: rgb(0,0,0);
+    --green-light-color: rgba(231, 246, 240, 1);
+
+    --green-light-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --green-light-hover-font: rgb(0,0,0);
+    --green-light-hover-color: rgba(219, 241, 233, 1);
+
+    --green-light-active-border: 1px solid rgba(233, 235, 248, 1);
+    --green-light-active-font: rgb(0,0,0);
+    --green-light-active-color: rgba(182, 226, 209, 1);
+
+    --green-normal-border: 1px solid rgba(233, 235, 248, 1);
+    --green-normal-font: rgb(0,0,0);
+    --green-normal-color: rgba(18, 161, 106, 1);
+
+    --green-normal-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --green-normal-hover-font: rgb(0,0,0);
+    --green-normal-hover-color: rgba(16, 145, 95, 1);
+
+    --green-normal-active-border: 1px solid rgba(233, 235, 248, 1);
+    --green-normal-active-font: rgb(0,0,0);
+    --green-normal-active-color: rgba(14, 129, 85, 1);
+
+    /* yellow */
+    --yellow-light-border: 1px solid rgba(233, 235, 248, 1);
+    --yellow-light-font: rgb(0,0,0);
+    --yellow-light-color: rgba(254, 248, 231, 1);
+
+    --yellow-light-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --yellow-light-hover-font: rgb(0,0,0);
+    --yellow-light-hover-color: rgba(253, 244, 219, 1);
+
+    --yellow-light-active-border: 1px solid rgba(233, 235, 248, 1);
+    --yellow-light-active-font: rgb(0,0,0);
+    --yellow-light-active-color: rgba(251, 232, 180, 1);
+
+    --yellow-normal-border: 1px solid rgba(233, 235, 248, 1);
+    --yellow-normal-font: rgb(0,0,0);
+    --yellow-normal-color:  rgba(242, 181, 13, 1);
+
+    --yellow-normal-hover-border: 1px solid rgba(233, 235, 248, 1);
+    --yellow-normal-hover-font: rgb(0,0,0);
+    --yellow-normal-hover-color: rgba(218, 163, 12, 1);
+
+    --yellow-normal-active-border: 1px solid rgba(233, 235, 248, 1);
+    --yellow-normal-active-font: rgb(0,0,0);
+    --yellow-normal-active-color: rgba(194, 145, 10, 1);
+}
