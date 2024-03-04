@@ -1,6 +1,6 @@
 .text {
     border: var(--green-normal-border);
-    color: var(--green-normal-font);
+    color: var(--text-color-black);
     background: var(--green-normal-color);
     font: var(--typography-h4-semi-bold-desktop);
 }
