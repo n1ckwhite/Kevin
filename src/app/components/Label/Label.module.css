@@ -28,3 +28,11 @@
 .dot {
   color: var(--blue-normal-color);
 }
+
+@media screen and (max-width: 900px) {
+  .text {
+    padding: 8px;
+    height: 40px;
+    box-shadow: none;
+  }
+}

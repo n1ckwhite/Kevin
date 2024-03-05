@@ -1,5 +1,10 @@
 .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   padding: 12px 32px;
+  gap: 32px;
   box-sizing: border-box;
 }
 
@@ -17,7 +22,6 @@
 .link {
   cursor: pointer;
   text-decoration: none;
-  margin-right: 32px;
   color: var(--white-color);
   font: var(--typography-big-text-medium);
   transition: .2s;
@@ -27,6 +31,9 @@
   opacity: .7;
 }
 
-.link:last-of-type {
-  margin-right: 0;
+@media screen and (max-width: 425px) {
+  .flex {
+    flex-direction: column;
+    gap: 12px
+  }
 }
