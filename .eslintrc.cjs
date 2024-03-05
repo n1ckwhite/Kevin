@@ -129,9 +129,16 @@ module.exports = {
         'jsx-a11y/control-has-associated-label': 0,
         'jsx-a11y/no-autofocus': 0,
         'no-restricted-exports': 0,
+      "import/no-extraneous-dependencies": [
+        "warn",
+        {
+          "devDependencies": true,
+          "optionalDependencies": true,
+          "peerDependencies": true,
+        }
+      ],
         'no-console': ["error", { allow: ["warn", "error"] }],
         'jsx-a11y/label-has-associated-control': 0,
-        'import/no-extraneous-dependencies': ["error", {"devDependencies": ["vite.config.ts"]}],
         'import/no-cycle': 0 // разрешаю циклические зависимости
     },
 }

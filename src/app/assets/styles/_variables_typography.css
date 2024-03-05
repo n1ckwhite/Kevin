@@ -1,5 +1,7 @@
 :root {
-    --typography-h1-semi-bold-desktop: normal 500 64px / 80px "Roboto", sans-serif;
+  --typography-golos-text-vf: normal 600 20px / 24px "Golos Text VF", sans-serif;
+
+  --typography-h1-semi-bold-desktop: normal 500 64px / 80px "Roboto", sans-serif;
     --typography-h1-semi-bold-mobile: normal 500 40px / 48px "Roboto", sans-serif;
 
     --typography-h2-semi-bold-desktop: normal 500 48px / 56px "Roboto", sans-serif;

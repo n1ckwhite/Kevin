@@ -1,9 +1,12 @@
 :root {
     /*all*/
-    --text-color-white: rgba(255,255,255,1);
-    --text-color-black: rgba(0,0,0,1);
-    /* blue */
-    --blue-light-border: 1px solid rgba(233, 235, 248, 1);
+    --white-color: rgba(255,255,255,1);
+    --black-color: rgba(0,0,0,1);
+    --text-black-color: #090A0E;
+  --gradation-text-icons-basic-quaternary-color: #94959E;
+
+  /* blue */
+  --blue-light-border: 1px solid rgba(233, 235, 248, 1);
     --blue-light-color: rgba(234, 241, 250, 1);
 
     --blue-light-hover-border: 1px solid rgba(233, 235, 248, 1);

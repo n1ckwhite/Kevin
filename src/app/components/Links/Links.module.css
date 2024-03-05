@@ -1,0 +1,32 @@
+.flex {
+  padding: 12px 32px;
+  box-sizing: border-box;
+}
+
+.flex__default {
+  background: transparent;
+}
+
+.flex__tertiary {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(9, 10, 14, 0.30);
+  backdrop-filter: blur(4px);
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 32px;
+  color: var(--white-color);
+  font: var(--typography-big-text-medium);
+  transition: .2s;
+}
+
+.link:hover {
+  opacity: .7;
+}
+
+.link:last-of-type {
+  margin-right: 0;
+}
