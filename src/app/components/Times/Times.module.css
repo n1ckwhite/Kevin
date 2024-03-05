@@ -1,0 +1,16 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1440px;
+  padding: 128px 104px 0px;
+  /* background-color: antiquewhite; */
+  gap: 8px;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 16px;
+}
