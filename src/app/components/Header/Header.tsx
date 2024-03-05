@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-import { Icon } from '@/app/components/Icon/Icon'
+import { Icon } from '../Icon'
 
 import { Label } from '../Label'
 import { Links } from '../Links'
