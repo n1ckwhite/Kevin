@@ -1,9 +1,12 @@
 import './assets/styles/main.css'
-import { Test } from '@/app/components/Test'
+
+import { Footer } from './components/Footer'
+import { Header } from './components/Header'
 
 const Home = () => (
   <div>
-    <Test text="Welcome to the Home Page" />
+    <Header />
+    <Footer />
   </div>
 )
 
