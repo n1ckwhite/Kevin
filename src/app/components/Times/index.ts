@@ -1,1 +1,1 @@
-import * from '.Times'
+export * from './Times'

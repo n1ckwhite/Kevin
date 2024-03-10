@@ -3,14 +3,31 @@
   flex-direction: column;
   justify-content: center;
   max-width: 1440px;
+  min-width: 360px;
   padding: 128px 104px 0px;
-  /* background-color: antiquewhite; */
   gap: 8px;
 }
 
 .task{
   display: flex;
+  justify-content: center;
   align-items: center;
   align-content: center;
+  flex-wrap: wrap;
+  margin-top: 64px;
   gap: 16px;
+}
+
+
+@media (max-width:360px) {
+.container{
+  padding: 80px 20px 0px;
+}
+  .task{
+    margin-top: 40px;
+  }
+}
+
+@media (min-width:321px) and (max-width:769px) {
+  
 }

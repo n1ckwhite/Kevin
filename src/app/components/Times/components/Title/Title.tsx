@@ -9,7 +9,7 @@ interface ITitle {
 }
 
 export const Title: FC<ITitle> = ({ text, textColor, textColor2 }) => (
-  <div>
+  <div className={s.title__mobile}>
     <p className={s.text}>
       {text}
       <span className={s.colorText}>{textColor}</span>

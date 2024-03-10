@@ -1,10 +1,11 @@
 import { FC } from 'react'
 
-import { SubTitle } from '../SubTitle/SubTitle'
+import { Subtitle } from '../Subtitle'
 
 import { Title } from './components/Title/Title'
 import s from './Times.module.css'
-import { Task } from './components/Task/Task'
+import { Task } from './components/Task'
+import { Button } from '../Button'
 
 interface ITimes {
 }
@@ -15,10 +16,11 @@ export const Times: FC<ITimes> = () => (
       textColor="экономит"
       textColor2="ваше время"
     />
-    <SubTitle text="*Возможна необходимость в корректировках полученного результата" />
+    <Subtitle text="*Возможна необходимость в корректировках полученного результата" />
     <div className={s.task}>
       <Task
         btnTitle="Задачи"
+        fontSizeTask="small__size__task"
         text1="Определение демографии аудитории"
         text2="Определение интересов аудитории"
         text3="Составление портрета аудитории"
@@ -26,6 +28,8 @@ export const Times: FC<ITimes> = () => (
       />
       <Task
         btnTitle="без Kevin"
+        headerTask="gray__back__btn"
+        mobile="mobile"
         text1="от 2 часов"
         text2="от 4 часов"
         text3="от 8 часов"
@@ -33,11 +37,14 @@ export const Times: FC<ITimes> = () => (
       />
       <Task
         btnTitle="c Kevin"
+        colorText="green__back__text"
+        headerTask="green__back__btn"
         text1="~ 1 минута"
-        text2="~ 3 минута"
-        text3="~ 3 минута"
-        text4="~ 5 минута"
+        text2="~ 3 минуты"
+        text3="~ 3 минуты"
+        text4="~ 5 минут"
       />
     </div>
+    <Button text="Перейти в телеграмм" />
   </div>
 )
