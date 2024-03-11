@@ -33,8 +33,8 @@ export const Task:FC<ITask> = ({
         && s.small__size__task,
       )}
       >
-        {book.map((text) => (
-          <li key={text}>{text}</li>
+        {book.map((text, index) => (
+          <li key={index}>{text}</li>
         ))}
       </ul>
     </div>
