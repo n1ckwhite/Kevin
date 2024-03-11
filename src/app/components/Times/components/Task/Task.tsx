@@ -5,8 +5,13 @@ import { HeaderTask } from '../Headertask'
 
 import s from './Task.module.css'
 
+interface IBook {
+  text: string;
+  id: number;
+}
+
 interface ITask {
-  book: string[],
+  book: IBook[],
   btnTitle: string,
   color?: 'default' | 'green' | 'gray',
   fontSizeTask?: 'default' | 'small'
@@ -33,8 +38,8 @@ export const Task:FC<ITask> = ({
         && s.small__size__task,
       )}
       >
-        {book.map((text, index) => (
-          <li key={index}>{text}</li>
+        {book.map((txt) => (
+          <li key={txt.id}>{txt.text}</li>
         ))}
       </ul>
     </div>
