@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import cn from 'classnames'
 
-import { HeaderTask } from '../Headertask'
+import { HeaderTask } from '../HeaderTask'
 
 import s from './Task.module.css'
 
