@@ -1,40 +1,41 @@
 import { FC } from 'react'
 import cn from 'classnames'
 
-import { Headertask } from '../Headertask'
+import { HeaderTask } from '../Headertask'
 
 import s from './Task.module.css'
 
 interface ITask {
-  text1: string,
-  text2: string,
-  text3: string,
-  text4: string,
+  book: string[],
   btnTitle: string,
-  headerTask?: 'gray__back__btn' | 'green__back__btn',
-  colorText?: 'default__text' | 'green__back__text',
-  fontSizeTask?: 'default__size__task' | 'small__size__task'
+  color?: 'default' | 'green' | 'gray',
+  fontSizeTask?: 'default' | 'small'
   mobile?: string
 }
 
 export const Task:FC<ITask> = ({
-  text1, text2, text3, text4, btnTitle, headerTask, colorText, fontSizeTask, mobile,
+  book,
+  btnTitle,
+  fontSizeTask = 'default',
+  color = 'default',
+  mobile,
 }) => (
   <div className={cn(mobile && s.mobile)}>
     <div className={s.card}>
-      <Headertask background={headerTask} btnTitle={btnTitle} />
+      <HeaderTask
+        background={color}
+        text={btnTitle}
+      />
       <ul className={cn(
         s.ul,
-        colorText === 'green__back__text'
-        && s.green__back__text,
-        fontSizeTask === 'small__size__task'
+        color === 'green' && s.green__back__text,
+        fontSizeTask === 'small'
         && s.small__size__task,
       )}
       >
-        <li>{text1}</li>
-        <li>{text2}</li>
-        <li>{text3}</li>
-        <li>{text4}</li>
+        {book.map((text) => (
+          <li key={text}>{text}</li>
+        ))}
       </ul>
     </div>
   </div>

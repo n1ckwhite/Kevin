@@ -1,50 +1,60 @@
 import { FC } from 'react'
 
 import { Subtitle } from '../Subtitle'
-
-import { Title } from './components/Title/Title'
-import s from './Times.module.css'
-import { Task } from './components/Task'
 import { Button } from '../Button'
 
-interface ITimes {
+import { Task } from './components/Task'
+import { Title } from './components/Title'
+import s from './Times.module.css'
+
+const book = {
+  tasks: [
+    'Определение демографии аудитории',
+    'Определение интересов аудитории',
+    'Составление портрета аудитории',
+    'Выявление поведенческих паттернов',
+  ],
+  hours: [
+    'от 2 часов',
+    'от 4 часов',
+    'от 8 часов',
+    'от 16 часов',
+  ],
+  minutes: [
+    '~ 1 минута',
+    '~ 3 минуты',
+    '~ 3 минуты',
+    '~ 5 минут',
+  ],
 }
-export const Times: FC<ITimes> = () => (
+
+export const Times: FC = () => (
   <div className={s.container}>
     <Title
       text="Наше решение "
       textColor="экономит"
-      textColor2="ваше время"
+      textColorTwo="ваше время"
     />
     <Subtitle text="*Возможна необходимость в корректировках полученного результата" />
     <div className={s.task}>
       <Task
+        book={book.tasks}
         btnTitle="Задачи"
-        fontSizeTask="small__size__task"
-        text1="Определение демографии аудитории"
-        text2="Определение интересов аудитории"
-        text3="Составление портрета аудитории"
-        text4="Выявление поведенческих паттернов"
+        color="default"
+        fontSizeTask="small"
       />
       <Task
+        book={book.hours}
         btnTitle="без Kevin"
-        headerTask="gray__back__btn"
+        color="gray"
         mobile="mobile"
-        text1="от 2 часов"
-        text2="от 4 часов"
-        text3="от 8 часов"
-        text4="от 16 часов"
       />
       <Task
+        book={book.minutes}
         btnTitle="c Kevin"
-        colorText="green__back__text"
-        headerTask="green__back__btn"
-        text1="~ 1 минута"
-        text2="~ 3 минуты"
-        text3="~ 3 минуты"
-        text4="~ 5 минут"
+        color="green"
       />
     </div>
-    <Button text="Перейти в телеграмм" />
+    <Button classname={s.btn} text="Перейти в телеграмм" />
   </div>
 )
