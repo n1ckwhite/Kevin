@@ -47,6 +47,8 @@ module.exports = {
         'import/no-duplicates': 0,
         'import/prefer-default-export': 0,
         'import/newline-after-import': 1,
+        "react/react-in-jsx-scope": 0,
+        "quotes": 0,
         'import/order': [
             1,
             {

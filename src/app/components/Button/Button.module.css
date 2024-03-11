@@ -1,3 +1,4 @@
+
 .button {
   min-width: 192px;
   min-height: 48px;
@@ -20,6 +21,13 @@
 
 .button:disabled {
   background: var(--blue-light-color);
+}
+
+
+@media (max-width:360px) {
+  .button {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 900px) {
