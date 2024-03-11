@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   max-width: 1440px;
-  min-width: 360px;
+  min-width: 320px;
   padding: 128px 104px 0;
   gap: 8px;
 }
@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  flex-wrap: wrap;
+  
   margin-top: 64px;
   gap: 16px;
 }
@@ -35,6 +35,8 @@
   }
 }
 
-@media (min-width:321px) and (max-width:769px) {
-
+@media screen and (max-width: 1280px) {
+  .task{
+    flex-wrap: wrap;
+  }
 }
