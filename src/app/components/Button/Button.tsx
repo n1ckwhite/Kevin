@@ -1,13 +1,14 @@
-import { FC } from 'react'
+import { ButtonHTMLAttributes, FC } from 'react'
 
 import s from './Button.module.css'
 
-interface IButton {
+interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
 }
 
-export const Button: FC<IButton> = ({ text }) => (
+export const Button: FC<IButton> = ({ text,...rest }) => (
   <div className={s.btn__tg}>
-    <button className={s.button}>{text}</button>
+    <button className={s.button} {...rest}>{text}</button>
   </div>
-)
+  
+

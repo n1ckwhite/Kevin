@@ -14,3 +14,10 @@
     src: url('../fonts/Roboto-Medium.ttf') format('woff2');
 }
 
+@font-face {
+  font-family: "Golos Text VF";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/GolosText-SemiBold.ttf') format('woff2');
+}
