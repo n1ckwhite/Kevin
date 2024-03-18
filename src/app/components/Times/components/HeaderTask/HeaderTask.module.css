@@ -1,0 +1,33 @@
+.btn{
+  width: 400px;
+  max-height: 72px;
+  padding: 16px 0;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #F2F3F4;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #454754;
+  letter-spacing: 0em;
+}
+
+.gray__back__btn{
+  background: #F2F3F4;
+}
+
+.green__back__btn{
+  background: #E7F6F0;
+  color:  #12A16A;
+}
+
+@media screen and (max-width: 360px) {
+  .btn{
+    font-size: 24px;
+    width: 320px;
+    line-height: 32px;
+    padding: 12px 0;
+  }
+}

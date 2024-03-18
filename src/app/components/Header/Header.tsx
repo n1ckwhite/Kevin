@@ -1,12 +1,11 @@
 import { FC } from 'react'
 
-import { Icon } from '../Icon'
+import s from './Header.module.css'
 
+import { Icon } from '../Icon'
 import { Label } from '../Label'
 import { Links } from '../Links'
 import { Button } from '../Button'
-
-import s from './Header.module.css'
 
 export const Header: FC = () => (
   <header className={s.header}>

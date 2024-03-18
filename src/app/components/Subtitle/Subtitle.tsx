@@ -9,4 +9,3 @@ interface ISubtitle extends HTMLAttributes<HTMLParagraphElement> {
 
 export const Subtitle: FC<ISubtitle> = ({ text, h, ...rest }) => (
   <p className={cn(s.text, h === 'h1' && s.textH1, h === 'h2' && s.textH2)} {...rest}>{text}</p>
-)

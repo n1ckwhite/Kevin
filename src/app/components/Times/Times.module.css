@@ -1,0 +1,43 @@
+.container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1440px;
+  min-width: 320px;
+  padding: 128px 104px 0;
+  gap: 8px;
+}
+
+.task{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  margin-top: 64px;
+  gap: 16px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  width: 100%;
+}
+
+
+@media (max-width:360px) {
+.container{
+  padding: 80px 20px 0;
+}
+  .task{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .task{
+    flex-wrap: wrap;
+  }
+}
