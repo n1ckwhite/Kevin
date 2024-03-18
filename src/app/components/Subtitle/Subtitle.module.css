@@ -1,0 +1,27 @@
+.text {
+  margin: 0;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #454754;
+}
+
+.textH1 {
+  font: var(--typography-helper-h1-text-vf);
+}
+
+.textH2 {
+  font: var(--typography-helper-h1-text-vf);
+  text-align: left;
+}
+
+@media (max-width:360px) {
+  .textH1 {
+    width: 320px;
+    font: var(--typography-big-text-regular);
+  }
+
+  .textH2 {
+    width: 280px;
+    font: var(--typography-big-text-regular);
+  }
+}
