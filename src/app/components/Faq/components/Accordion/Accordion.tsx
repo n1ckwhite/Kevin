@@ -1,27 +1,36 @@
+'use client'
+
 import { FC, useState } from 'react'
 
 import s from './Accordion.module.css'
 
 interface IAccordion {
-  titleAccordion: string
-  textAccordion: string
+  title: string
+  text: string
 }
 
-export const Accordion: FC<IAccordion> = ({ titleAccordion, textAccordion }) => {
+export const Accordion: FC<IAccordion> = ({
+  title,
+  text,
+}) => {
   const [isActive, setIsActive] = useState(false)
+  const clickActive = () => {
+    setIsActive(!isActive)
+    console.log(isActive)
+  }
 
   return (
     <div className={s.section}>
       <div className={s.card}>
         <button
           className={s.title__card}
-          onClick={() => setIsActive(!isActive)}
+          onClick={clickActive}
         >
           <p>
-            {titleAccordion}
+            {title}
           </p>
         </button>
-        {isActive && <p className={s.body__card}>{textAccordion}</p>}
+        {isActive && <p className={s.body__card}>{text}</p>}
       </div>
     </div>
   )
