@@ -1,0 +1,18 @@
+.grid {
+  margin: 0 auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px 32px;
+  box-sizing: border-box;
+  max-width: 1232px;
+}
+
+@media (max-width:360px) {
+  .grid {
+    gap: 20px;
+  }
+}

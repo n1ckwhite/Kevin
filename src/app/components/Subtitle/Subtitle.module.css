@@ -3,27 +3,22 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #454754;
-}
-
-.textH1 {
   font: var(--typography-helper-h1-text-vf);
 }
-
-.textH2 {
+.text_strong {
   font: var(--typography-helper-h1-text-vf);
   text-align: left;
 }
 
 @media (max-width:360px) {
-  .textH1 {
+  .text {
     width: 320px;
     font: var(--typography-big-text-regular);
   }
-
-  .textH2 {
+  .text_strong {
     width: 280px;
     font: var(--typography-big-text-regular);
   }

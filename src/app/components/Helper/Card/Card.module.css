@@ -16,7 +16,6 @@
   border-style: none;
   cursor: pointer;
   display: block;
-  height: 474px;
   object-fit: cover;
   object-position: center;
   width: 100%;
@@ -27,7 +26,6 @@
 .box {
   margin: 0;
   padding: 32px;
-  align-items: center;
   border-radius: 16px;
   display: flex;
   flex-direction: column;

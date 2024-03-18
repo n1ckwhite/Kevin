@@ -1,22 +1,19 @@
 import { FC } from 'react'
-import { Title } from '../Title/Title'
-import { Subtitle } from '../Subtitle/Subtitle'
-import { Card } from './Card/Card'
+
+import { Title } from '../Title'
+import { Subtitle } from '../Subtitle'
+
+import { Cards } from "./Cards"
 import s from './Helper.module.css'
 
 export const Helper: FC = () => (
   <section className={s.helper}>
     <div className={s.helper__wrapper}>
       <div className={s.frame}>
-        <Title text="Кому это нужно?" h={'h1'} />
-        <Subtitle text="Наш чат-бот способен помочь многим специалистам" h={'h1'} />
+        <Title strong text="Кому это нужно?" />
+        <Subtitle strong text="Наш чат-бот способен помочь многим специалистам" />
       </div>
-      <ul className={s.grid}>
-        <Card link="" textT="Продуктологи" textS="Автоматизируйте свои рутинные задачи" />
-        <Card link="" textT="Менеджеры" textS="Не тратьте время на сбор и аналитику информации" />
-        <Card link="" textT="Бизнесмены" textS="Исследуйте рыночные ниши всего за пару минут" />
-        <Card link="" textT="IT – специалисты" textS="Получите опыт в продуктовых исследованиях" />
-      </ul>
+      <Cards />
     </div>
   </section>
 )

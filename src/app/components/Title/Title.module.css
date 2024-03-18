@@ -1,25 +1,23 @@
 .text {
   margin: 0;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #454754;
-}
-
-.textH1 {
-  font: var(--typography-h2-semi-bold-desktop);
-}
-
-.textH2 {
   font: var(--typography-h3-semi-bold-desktop);
 }
 
+.text_strong {
+  font: var(--typography-h2-semi-bold-desktop);
+}
+
+
 @media (max-width:360px) {
-  .textH1 {
+  .text_strong {
     width: 320px;
     font: var(--typography-h2-semi-bold-mobile);
   }
 
-  .textH2 {
+  .text {
     width: 280px;
     font: var(--typography-h3-semi-bold-mobile);
     text-align: left;

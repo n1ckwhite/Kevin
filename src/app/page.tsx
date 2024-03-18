@@ -1,9 +1,8 @@
 import './assets/styles/main.css'
-
-import { Header } from './components/Header'
-import { Helper } from './components/Helper'
-import { Times } from './components/Times'
-import { Footer } from './components/Footer'
+import { Header } from "@/app/components/Header"
+import { Helper } from "@/app/components/Helper"
+import { Times } from "@/app/components/Times"
+import { Footer } from "@/app/components/Footer"
 
 const Home = () => (
   <div>
