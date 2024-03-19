@@ -13,12 +13,10 @@
 
 @media (max-width:360px) {
   .text {
-    width: 280px;
     font: var(--typography-big-text-regular);
     text-align: left;
   }
   .text_strong {
-    width: 320px;
     font: var(--typography-big-text-regular);
     text-align: center;
   }
