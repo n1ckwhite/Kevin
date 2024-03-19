@@ -16,8 +16,8 @@ export const Card: FC<ILink> = ({
   <div className={s.card}>
     <div className={s.img} {...rest} />
     <div className={s.box}>
-      <Title text={title} />
-      <Subtitle text={subtitle} />
+      <Title text={title}/>
+      <Subtitle text={subtitle}/>
     </div>
   </div>
 )

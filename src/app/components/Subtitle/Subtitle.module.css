@@ -1,8 +1,6 @@
 .text {
   margin: 0;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  padding: 0;
   letter-spacing: 0;
   text-align: center;
   color: #454754;
@@ -15,16 +13,13 @@
 
 @media (max-width:360px) {
   .text {
-    width: 320px;
-    font: var(--typography-big-text-regular);
-  }
-  .text_strong {
     width: 280px;
     font: var(--typography-big-text-regular);
+    text-align: left;
   }
-}
-@media (max-width:360px) {
-  .text{
+  .text_strong {
     width: 320px;
+    font: var(--typography-big-text-regular);
+    text-align: center;
   }
 }

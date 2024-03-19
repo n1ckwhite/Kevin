@@ -12,14 +12,15 @@
 
 
 @media (max-width:360px) {
-  .text_strong {
-    width: 320px;
-    font: var(--typography-h2-semi-bold-mobile);
-  }
-
   .text {
     width: 280px;
     font: var(--typography-h3-semi-bold-mobile);
     text-align: left;
+  }
+
+  .text_strong {
+    width: 320px;
+    font: var(--typography-h2-semi-bold-mobile);
+    text-align: center;
   }
 }
