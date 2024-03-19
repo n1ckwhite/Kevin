@@ -3,8 +3,8 @@ import { FC } from 'react'
 import { Subtitle } from '../Subtitle'
 import { Title } from '../Title'
 
+import { Accordion } from "./components/Accordion"
 import s from './Faq.module.css'
-import { Accordion } from './components/Accordion'
 
 export const Faq: FC = () => (
   <div className={s.container}>
