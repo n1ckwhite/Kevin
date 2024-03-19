@@ -17,10 +17,28 @@ export const Faq: FC = () => (
     />
     <div className={s.accordion__section}>
       <Accordion
-        textAccordion="Lorem ipsum dolor sit amet consectetur.
+        text="Lorem ipsum dolor sit amet consectetur.
           Id feugiat morbi platea consectetur sed tellus purus dolor
           porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
-        titleAccordion="Lorem ipsum, dolor sit amet consectetur?"
+        title="Lorem ipsum, dolor sit amet consectetur?"
+      />
+      <Accordion
+        text="Lorem ipsum dolor sit amet consectetur.
+          Id feugiat morbi platea consectetur sed tellus purus dolor
+          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
+        title="Lorem ipsum, dolor sit amet consectetur?"
+      />
+      <Accordion
+        text="Lorem ipsum dolor sit amet consectetur.
+          Id feugiat morbi platea consectetur sed tellus purus dolor
+          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
+        title="Lorem ipsum, dolor sit amet consectetur?"
+      />
+      <Accordion
+        text="Lorem ipsum dolor sit amet consectetur.
+          Id feugiat morbi platea consectetur sed tellus purus dolor
+          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
+        title="Lorem ipsum, dolor sit amet consectetur?"
       />
     </div>
   </div>
