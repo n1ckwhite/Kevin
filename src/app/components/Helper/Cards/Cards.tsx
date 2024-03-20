@@ -9,7 +9,7 @@ import s from './Cards.module.css'
 export const Cards: FC = () => (
   <ul className={s.grid}>
     {CARDS.map((card) => (
-      <li key={card.id}>
+      <li className={s.grid__card} key={card.id}>
         <Card
           subtitle={card.subtitle}
           title={card.title}

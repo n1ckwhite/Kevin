@@ -6,10 +6,10 @@ import { Footer } from "@/app/components/Footer"
 
 const Home = () => (
   <div>
-    <Header />
-    <Helper />
+    {/* <Header /> */}
+    {/* <Helper /> */}
     <Times />
-    <Footer />
+    {/* <Footer /> */}
   </div>
 )
 
