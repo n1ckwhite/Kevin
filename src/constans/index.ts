@@ -25,7 +25,6 @@ export const CARDS = [
   { id: 3, title: "Бизнесмены", subtitle: "Исследуйте рыночные ниши всего за пару минут" },
   { id: 4, title: "IT – специалисты", subtitle: "Получите опыт в продуктовых исследованиях" },
 ]
-};
 
 export const ACCORDIONS = [
   {
