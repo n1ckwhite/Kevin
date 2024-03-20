@@ -1,37 +1,31 @@
-'use client'
+"use client";
 
-import { FC, useState } from 'react'
+import { FC, useState } from "react";
 
-import { Icon } from '@/app/components/Icon'
+import { Icon } from "@/app/components/Icon";
 
-import s from './Accordion.module.css'
-
+import s from "./Accordion.module.css";
+import cn from "classnames";
 interface IAccordion {
-  title: string
-  text: string
+  title: string;
+  text: string;
 }
 
 export const Accordion: FC<IAccordion> = ({ title, text }) => {
-  const [isActive, setIsActive] = useState(false)
-  const [isIcon, setIsIcon] = useState(true)
-
+  const [isActive, setIsActive] = useState(false);
   return (
-    <div className={s.section}>
-      <div className={!isActive ? s.card__default : s.card}>
-        {isIcon && (
-          <button
-            className={s.title__card}
-            onClick={() => setIsActive(!isActive)}
-          >
-            <p>
-              {title}
-            </p>
-            {isActive ? <Icon name="chevron_up" />
-              : <Icon name="chevron_down" /> }
-          </button>
-        )}
-        {isActive && <p className={s.body__card}>{text}</p>}
+    <button onClick={() => setIsActive(!isActive)} className={s.section}>
+      <div className={cn(s.card, !isActive && s.card__default)}>
+        <div className={s.title__card}>
+          <p>{title}</p>
+          <div className={cn(s.card__icon, isActive && s.card__icon_active)}>
+            <Icon name="chevron_down" />
+          </div>
+        </div>
+        <p className={cn(s.body__card, isActive && s.body__card_active)}>
+          {text}
+        </p>
       </div>
-    </div>
-  )
-}
+    </button>
+  );
+};

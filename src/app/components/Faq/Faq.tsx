@@ -1,45 +1,25 @@
-import { FC } from 'react'
+import { FC } from "react";
 
-import { Subtitle } from '../Subtitle'
-import { Title } from '../Title'
+import { Subtitle } from "../Subtitle";
+import { Title } from "../Title";
 
-import { Accordion } from "./components/Accordion"
-import s from './Faq.module.css'
+import { Accordion } from "./components/Accordion";
+import s from "./Faq.module.css";
+import { ACCORDIONS } from "@/constans";
 
 export const Faq: FC = () => (
   <div className={s.container}>
-    <Title
-      text="Ответы на вопросы"
-    />
+    <Title text="Ответы на вопросы" />
     <Subtitle
       text="Специально для вас собрали часто-задаваемые вопросы
         и ответили на них"
     />
-    <div className={s.accordion__section}>
-      <Accordion
-        text="Lorem ipsum dolor sit amet consectetur.
-          Id feugiat morbi platea consectetur sed tellus purus dolor
-          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
-        title="Lorem ipsum, dolor sit amet consectetur?"
-      />
-      <Accordion
-        text="Lorem ipsum dolor sit amet consectetur.
-          Id feugiat morbi platea consectetur sed tellus purus dolor
-          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
-        title="Lorem ipsum, dolor sit amet consectetur?"
-      />
-      <Accordion
-        text="Lorem ipsum dolor sit amet consectetur.
-          Id feugiat morbi platea consectetur sed tellus purus dolor
-          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
-        title="Lorem ipsum, dolor sit amet consectetur?"
-      />
-      <Accordion
-        text="Lorem ipsum dolor sit amet consectetur.
-          Id feugiat morbi platea consectetur sed tellus purus dolor
-          porttitor. Ultricies diam nullam sapien a scelerisque ipsum."
-        title="Lorem ipsum, dolor sit amet consectetur?"
-      />
-    </div>
+    <ul className={s.accordion__section}>
+      {ACCORDIONS.map((accordion) => (
+        <li key={accordion.id}>
+          <Accordion text={accordion.text} title={accordion.title} />
+        </li>
+      ))}
+    </ul>
   </div>
-)
+);
