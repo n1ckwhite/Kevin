@@ -2,13 +2,23 @@
   margin: 0;
   padding: 0;
   letter-spacing: 0;
-  text-align: center;
+  text-align: left;
   color: #454754;
   font: var(--typography-helper-h1-text-vf);
 }
 .text_strong {
   font: var(--typography-helper-h1-text-vf);
-  text-align: left;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  .text {
+    font: var(--typography-big-text-regular);
+  }
+
+  .text_strong {
+    font: var(--typography-big-text-regular);
+  }
 }
 
 @media (max-width:360px) {

@@ -3,11 +3,22 @@
   letter-spacing: 0;
   text-align: center;
   color: #454754;
+  white-space: nowrap;
   font: var(--typography-h3-semi-bold-desktop);
 }
 
 .text_strong {
   font: var(--typography-h2-semi-bold-desktop);
+}
+
+@media (max-width:600px) {
+  .text {
+    font: var(--typography-h4-semi-bold-desktop);
+  }
+
+  .text_strong {
+    font: var(--typography-h3-semi-bold-desktop);
+  }
 }
 
 

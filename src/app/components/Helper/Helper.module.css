@@ -22,6 +22,16 @@
   box-sizing: border-box;
 }
 
+@media (max-width:600px) {
+  .helper {
+    margin: 0;
+    min-width: 360px;
+  }
+
+  .helper__wrapper {
+    margin: 0;
+  }
+}
 
 @media (max-width:360px) {
   .helper {
@@ -31,7 +41,7 @@
 
   .helper__wrapper {
     margin: 0;
-    padding: 0;
+    padding: 56px 20px;
     width: 320px;
   }
 
