@@ -1,16 +1,17 @@
-import './assets/styles/main.css'
-import { Header } from "@/app/components/Header"
-import { Helper } from "@/app/components/Helper"
-import { Times } from "@/app/components/Times"
-import { Footer } from "@/app/components/Footer"
+import "./assets/styles/main.css";
+
+import { Header } from "./components/Header";
+import { Times } from "./components/Times";
+import { Footer } from "./components/Footer";
+import { Faq } from "./components/Faq";
 
 const Home = () => (
   <div>
-    {/* <Header /> */}
-    {/* <Helper /> */}
+    <Header />
     <Times />
-    {/* <Footer /> */}
+    <Faq />
+    <Footer />
   </div>
-)
+);
 
-export default Home
+export default Home;
