@@ -6,6 +6,7 @@
   color: #454754;
   font: var(--typography-helper-h1-text-vf);
 }
+
 .text_strong {
   font: var(--typography-helper-h1-text-vf);
   text-align: center;
@@ -14,10 +15,12 @@
 @media (max-width:600px) {
   .text {
     font: var(--typography-big-text-regular);
+    text-align: left;
   }
 
   .text_strong {
     font: var(--typography-big-text-regular);
+    text-align: center;
   }
 }
 

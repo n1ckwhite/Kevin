@@ -34,7 +34,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width:700px) {
+@media (max-width:695px) {
   .card {
     min-width: 360px;
     width: 100%;
