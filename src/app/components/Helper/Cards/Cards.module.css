@@ -9,11 +9,30 @@
   max-width: 1232px;
 }
 
+@media (max-width:700px) {
+  .grid__card {
+    margin: 0;
+    max-width: 670px;
+    min-width: 320px;
+    width: 100%;
+  }
+}
+
 @media (max-width:360px) {
   .grid {
+    margin: 0;
+    padding: 0 20px;
+    max-width: 320px;
     width: 100vw;
     gap: 20px;
     justify-content: center;
     align-items: center;
+  }
+
+  .grid__card {
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    max-height: 328px;
   }
 }
