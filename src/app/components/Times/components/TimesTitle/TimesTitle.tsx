@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-import s from './Title.module.css'
+import s from './TimesTitle.module.css'
 
 interface ITitle {
   text: string;
@@ -8,7 +8,7 @@ interface ITitle {
   textColorTwo?: string;
 }
 
-export const Title: FC<ITitle> = ({ text, textColor, textColorTwo }) => (
+export const TimesTitle: FC<ITitle> = ({ text, textColor, textColorTwo }) => (
   <div className={s.title__mobile}>
     <p className={s.text}>
       {text}
