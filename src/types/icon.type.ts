@@ -1,1 +1,1 @@
-export type TIconType = "menu" | "chevron_down"
+export type TIconType = 'menu' | 'chevron_down' | 'close'

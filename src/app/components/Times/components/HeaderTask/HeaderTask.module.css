@@ -1,21 +1,17 @@
-.btn{
+.btn {
   width: 400px;
   max-height: 72px;
   padding: 16px 0;
   border-radius: 8px;
   background: #FFFFFF;
   border: 1px solid #F2F3F4;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 40px;
-  letter-spacing: 0em;
+  font: var(--typography-h3-semi-bold-desktop);
   text-align: center;
   color: #454754;
-  letter-spacing: 0em;
 }
 
 .gray__back__btn{
-  background: #F2F3F4;
+  background: var(--gradation-surface-secondary-color);
 }
 
 .green__back__btn{
@@ -23,11 +19,9 @@
   color:  #12A16A;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 770px) {
   .btn{
-    font-size: 24px;
-    width: 320px;
-    line-height: 32px;
-    padding: 12px 0;
+    width: 100%;
+    font: var(--typography-h3-semi-bold-mobile);
   }
 }

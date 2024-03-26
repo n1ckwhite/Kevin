@@ -1,6 +1,8 @@
 import { FC } from "react"
 import cn from 'classnames'
 
+import { Icon } from "@/app/components/Icon"
+
 import s from './MenuModal.module.css'
 
 interface IMenuModal {
@@ -21,6 +23,9 @@ export const MenuModal: FC<IMenuModal> = ({
       <span className={s.link}>Тарифы</span>
       <span className={s.link}>Контакты</span>
       <span className={s.link}>FAQ</span>
+      <button className={s.btn} onClick={closeModal}>
+        <Icon name="close" />
+      </button>
     </div>
     {modal && <button className={s.wrapper} onClick={closeModal} />}
   </div>

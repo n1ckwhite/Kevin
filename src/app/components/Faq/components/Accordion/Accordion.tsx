@@ -1,23 +1,25 @@
-"use client";
+"use client"
 
-import { FC, useState } from "react";
+import { FC, useState } from "react"
+import cn from "classnames"
 
-import { Icon } from "@/app/components/Icon";
+import { Icon } from "@/app/components/Icon"
 
-import s from "./Accordion.module.css";
-import cn from "classnames";
+import s from "./Accordion.module.css"
+
 interface IAccordion {
   title: string;
   text: string;
 }
 
 export const Accordion: FC<IAccordion> = ({ title, text }) => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false)
+
   return (
-    <button onClick={() => setIsActive(!isActive)} className={s.section}>
+    <button className={s.section} onClick={() => setIsActive(!isActive)}>
       <div className={cn(s.card, !isActive && s.card__default)}>
         <div className={s.title__card}>
-          <p>{title}</p>
+          <p className={s.card__title_text}>{text}</p>
           <div className={cn(s.card__icon, isActive && s.card__icon_active)}>
             <Icon name="chevron_down" />
           </div>
@@ -27,5 +29,5 @@ export const Accordion: FC<IAccordion> = ({ title, text }) => {
         </p>
       </div>
     </button>
-  );
-};
+  )
+}

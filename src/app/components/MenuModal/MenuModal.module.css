@@ -33,6 +33,7 @@
   flex-direction: column;
   gap: 8px;
   font: var(--typography-h1-semi-bold-mobile);
+  position: relative;
 }
 
 .link {
@@ -41,4 +42,10 @@
 
 .link:hover {
   opacity: .7;
+}
+
+.btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }

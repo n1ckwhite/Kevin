@@ -10,7 +10,7 @@
   width: clamp(96px, 608px, 608px);
   padding: 32px;
   border-radius: 16px;
-  box-shadow: 0px 8px 16px 0px #090A0E14;
+  box-shadow: 0 8px 16px 0 #090A0E14;
   border: 1px solid #F2F3F4;
   transition: .2s;
 }
@@ -22,8 +22,7 @@
   width: clamp(320px, 608px, 608px);
   padding: 32px;
   border-radius: 16px;
-  box-shadow: 0px 4px 8px 0px #090A0E0A;
-  box-shadow: 0px 8px 16px 0px #090A0E14;
+  box-shadow: 0 8px 16px 0 #090A0E14;
   border: 1px solid #F2F3F4;
 }
 
@@ -38,10 +37,17 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   max-height: 0;
   transition: .2s;
+  overflow: hidden;
+}
+
+.card__title_text {
+  max-width: 544px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
 }
 
@@ -63,7 +69,7 @@
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 770px) {
   .card__default{
     padding: 20px;
   }
