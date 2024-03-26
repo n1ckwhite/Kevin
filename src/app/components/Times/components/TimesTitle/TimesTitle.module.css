@@ -16,6 +16,19 @@
   text-align: center;
 }
 
+@media screen and (max-width: 770px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font: var(--typography-h2-semi-bold-mobile);
+  }
+  .colorText {
+    font: var(--typography-h2-semi-bold-mobile);
+  }
+}
+
 @media (max-width:360px) {
   .title__mobile{
     width: 320px;
