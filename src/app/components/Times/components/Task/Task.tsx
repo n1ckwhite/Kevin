@@ -39,7 +39,7 @@ export const Task:FC<ITask> = ({
       )}
       >
         {book.map((txt) => (
-          <li key={txt.id}>{txt.text}</li>
+          <li className={s.card__li} key={txt.id}>{txt.text}</li>
         ))}
       </ul>
     </div>
