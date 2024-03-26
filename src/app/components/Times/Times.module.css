@@ -6,12 +6,13 @@
   max-width: 1440px;
   min-width: 320px;
   padding: 128px 104px 0;
+  align-items: center;
 }
 
 .task {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
   margin-top: 64px;
   gap: 16px;

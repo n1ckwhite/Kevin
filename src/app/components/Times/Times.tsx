@@ -6,12 +6,12 @@ import { Subtitle } from '../Subtitle'
 import { Button } from '../Button'
 
 import { Task } from './components/Task'
-import { Title } from './components/Title'
+import { TimesTitle } from './components/TimesTitle'
 import s from './Times.module.css'
 
 export const Times: FC = () => (
   <div className={s.container}>
-    <Title
+    <TimesTitle
       text="Наше решение "
       textColor="экономит"
       textColorTwo="ваше время"

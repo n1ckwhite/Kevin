@@ -1,14 +1,37 @@
 .text {
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 56px;
-  letter-spacing: 0em;
+  margin: 0;
+  letter-spacing: 0;
   text-align: center;
-  color: #090A0E;
+  color: #454754;
+  white-space: nowrap;
+  font: var(--typography-h3-semi-bold-desktop);
 }
 
+.text_strong {
+  font: var(--typography-h2-semi-bold-desktop);
+}
+
+@media (max-width:600px) {
+  .text {
+    font: var(--typography-h4-semi-bold-desktop);
+  }
+
+  .text_strong {
+    font: var(--typography-h3-semi-bold-desktop);
+  }
+}
+
+
 @media (max-width:360px) {
-  .title__mobile{
+  .text {
+    width: 280px;
+    font: var(--typography-h3-semi-bold-mobile);
+    text-align: left;
+  }
+
+  .text_strong {
     width: 320px;
+    font: var(--typography-h2-semi-bold-mobile);
+    text-align: center;
   }
 }
