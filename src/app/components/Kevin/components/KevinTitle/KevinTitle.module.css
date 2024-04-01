@@ -1,0 +1,21 @@
+.title {
+  font: var(--typography-h1-semi-bold-desktop);
+  color: var(--gradation-text-icons-basic-primary);
+  text-align: center;
+}
+
+.title__span {
+  color: var(--blue-normal-color);
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    font: var(--typography-h1-semi-bold-mobile);
+  }
+  .title__span {
+    color: var(--gradation-text-icons-basic-primary);
+  }
+  .br {
+    display: none;
+  }
+}

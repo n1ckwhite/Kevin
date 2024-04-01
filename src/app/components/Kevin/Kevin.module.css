@@ -1,0 +1,11 @@
+.wrapper {
+  padding: 240px 104px 0;
+  box-sizing: border-box;
+}
+
+.wrapper__scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
