@@ -18,7 +18,11 @@ export const Faq: FC = () => (
     <ul className={s.accordion__section}>
       {ACCORDIONS.map((accordion) => (
         <li key={accordion.id}>
-          <Accordion text={accordion.text} title={accordion.title} />
+          <Accordion
+            id={accordion.id}
+            text={accordion.text}
+            title={accordion.title}
+          />
         </li>
       ))}
     </ul>

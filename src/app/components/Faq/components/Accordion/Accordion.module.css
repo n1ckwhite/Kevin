@@ -10,7 +10,6 @@
   width: clamp(96px, 608px, 608px);
   padding: 32px;
   border-radius: 16px;
-  box-shadow: 0 8px 16px 0 #090A0E14;
   border: 1px solid #F2F3F4;
   transition: .2s;
 }
@@ -22,8 +21,11 @@
   width: clamp(320px, 608px, 608px);
   padding: 32px;
   border-radius: 16px;
+}
+
+.card__shadow {
   box-shadow: 0 8px 16px 0 #090A0E14;
-  border: 1px solid #F2F3F4;
+
 }
 
 .title__card {
