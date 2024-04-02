@@ -1,0 +1,12 @@
+.box {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  max-width: 100%;
+  border-radius: 16px;
+  background-color: #fff;
+  color: #000;
+  position: relative; 
+  box-sizing: border-box;
+  box-shadow: 0 4px #090A0E0A;
+}
