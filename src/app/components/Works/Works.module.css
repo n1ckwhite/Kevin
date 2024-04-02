@@ -1,0 +1,20 @@
+.works {
+  margin: 0;
+  padding: 0 104px;
+  box-sizing: border-box;
+  max-height: 2116px;
+  max-height: 100%;
+}
+
+.works__wrapper {
+  padding: 128px 0;
+  box-sizing: border-box;
+}
+
+.works__frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 80px;
+}

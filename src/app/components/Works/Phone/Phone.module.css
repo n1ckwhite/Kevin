@@ -1,0 +1,12 @@
+.phone {
+  margin: 0 auto;
+  max-width: 1232px;
+  height: 720px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:
+    url(../../../../../public/icons/full_phone.svg) center no-repeat
+  ;
+}
