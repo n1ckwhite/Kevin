@@ -1,11 +1,12 @@
-import { FC } from "react";
+import { FC } from "react"
 
-import { Subtitle } from "../Subtitle";
-import { Title } from "../Title";
+import { ACCORDIONS } from "@/constans"
 
-import { Accordion } from "./components/Accordion";
-import s from "./Faq.module.css";
-import { ACCORDIONS } from "@/constans";
+import { Subtitle } from "../Subtitle"
+import { Title } from "../Title"
+
+import { Accordion } from "./components/Accordion"
+import s from "./Faq.module.css"
 
 export const Faq: FC = () => (
   <div className={s.container}>
@@ -17,9 +18,13 @@ export const Faq: FC = () => (
     <ul className={s.accordion__section}>
       {ACCORDIONS.map((accordion) => (
         <li key={accordion.id}>
-          <Accordion text={accordion.text} title={accordion.title} />
+          <Accordion
+            id={accordion.id}
+            text={accordion.text}
+            title={accordion.title}
+          />
         </li>
       ))}
     </ul>
   </div>
-);
+)

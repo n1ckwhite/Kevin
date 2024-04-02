@@ -3,8 +3,10 @@
     --white-color: rgba(255,255,255,1);
     --black-color: rgba(0,0,0,1);
     --text-black-color: #090A0E;
-  --gradation-text-icons-basic-quaternary-color: #94959E;
-  --gradation-surface-secondary-color: #F2F3F4;
+    --gradation-text-icons-basic-quaternary-color: #94959E;
+    --gradation-surface-secondary: #f2f3f4;
+    --gradation-text-icons-basic-primary: #090a0e;
+    --gradation-surface-secondary-color: #F2F3F4;
 
   /* blue */
   --blue-light-border: 1px solid rgba(233, 235, 248, 1);

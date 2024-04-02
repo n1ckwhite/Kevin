@@ -36,22 +36,30 @@ export const CARDS = [
 export const ACCORDIONS = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet consectetur Id feugiat morbi platea consectetur sed tellus purus dolor porttitor. Ultricies diam nullam sapien a scelerisque ipsum",
+    text: "Lorem ipsum dolor sit amet consectetur "
+      + "Id feugiat morbi platea consectetur sed tellus purus dolor porttitor."
+      + " Ultricies diam nullam sapien a scelerisque ipsum",
     title: "Lorem ipsum, dolor sit amet consectetur?",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet consectetur Id feugiat morbi platea consectetur sed tellus purus dolor porttitor. Ultricies diam nullam sapien a scelerisque ipsum",
+    text: "Lorem ipsum dolor sit amet consectetur "
+      + "Id feugiat morbi platea consectetur sed tellus purus dolor porttitor."
+      + " Ultricies diam nullam sapien a scelerisque ipsum",
     title: "Lorem ipsum, dolor sit amet consectetur?",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet consectetur Id feugiat morbi platea consectetur sed tellus purus dolor porttitor. Ultricies diam nullam sapien a scelerisque ipsum",
+    text: "Lorem ipsum dolor sit amet consectetur "
+      + "Id feugiat morbi platea consectetur sed tellus purus dolor porttitor."
+      + " Ultricies diam nullam sapien a scelerisque ipsum",
     title: "Lorem ipsum, dolor sit amet consectetur?",
   },
   {
     id: 4,
-    text: "Lorem ipsum dolor sit amet consectetur Id feugiat morbi platea consectetur sed tellus purus dolor porttitor. Ultricies diam nullam sapien a scelerisque ipsum",
+    text: "Lorem ipsum dolor sit amet consectetur "
+      + "Id feugiat morbi platea consectetur sed tellus purus dolor porttitor."
+      + " Ultricies diam nullam sapien a scelerisque ipsum",
     title: "Lorem ipsum, dolor sit amet consectetur?",
   },
-];
+]

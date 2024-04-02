@@ -1,11 +1,18 @@
 .header {
   padding: 0 104px;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: var(--white-color);
+  z-index: 2;
 }
 
 .header__wrapper {
   padding: 16px 0;
   box-sizing: border-box;
+  max-height: 80px;
 }
 
 .menu {
@@ -24,10 +31,13 @@
   background: var(--gradation-surface-secondary-color, #F2F3F4);
 }
 
-
 @media screen and (max-width: 900px) {
   .header {
     padding: 0 16px;
+    border-bottom: 1px solid var(--gradation-surface-secondary-color, #F2F3F4);
+  }
+  .header__wrapper {
+    max-height: 72px;
   }
   .header__links {
     display: none;

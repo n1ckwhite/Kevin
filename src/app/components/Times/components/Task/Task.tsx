@@ -10,7 +10,7 @@ interface IBook {
   id: number;
 }
 
-interface ITask {
+interface ITaskProps {
   book: IBook[],
   btnTitle: string,
   color?: 'default' | 'green' | 'gray',
@@ -18,7 +18,7 @@ interface ITask {
   mobile?: string
 }
 
-export const Task:FC<ITask> = ({
+export const Task:FC<ITaskProps> = ({
   book,
   btnTitle,
   fontSizeTask = 'default',
@@ -39,7 +39,7 @@ export const Task:FC<ITask> = ({
       )}
       >
         {book.map((txt) => (
-          <li key={txt.id}>{txt.text}</li>
+          <li className={s.card__li} key={txt.id}>{txt.text}</li>
         ))}
       </ul>
     </div>

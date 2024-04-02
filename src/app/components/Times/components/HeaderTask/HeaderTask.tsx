@@ -3,12 +3,12 @@ import cn from 'classnames'
 
 import s from './HeaderTask.module.css'
 
-interface IHeaderTask {
+interface IHeaderTaskProps {
   text: string,
   background?: 'default' | 'green' | 'gray'
 }
 
-export const HeaderTask: FC<IHeaderTask> = ({ background, text }) => (
+export const HeaderTask: FC<IHeaderTaskProps> = ({ background, text }) => (
   <p
     className={cn(
       s.btn,

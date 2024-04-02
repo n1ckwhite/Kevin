@@ -13,7 +13,9 @@ const RootLayout = ({
   children: ReactNode;
 }>) => (
   <html lang="ru">
-    <body>{children}</body>
+    <body>
+      {children}
+    </body>
   </html>
 )
 

@@ -3,11 +3,11 @@ import cn from 'classnames'
 
 import s from './Links.module.css'
 
-interface ILinks {
+interface ILinksProps {
   background?: 'default' | 'tertiary'
 }
 
-export const Links: FC<ILinks> = ({ background = 'default' }) => (
+export const Links: FC<ILinksProps> = ({ background = 'default' }) => (
   <div className={cn(
     s.flex,
     background === 'default'

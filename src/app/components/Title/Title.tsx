@@ -3,12 +3,12 @@ import cn from "classnames"
 
 import s from './Title.module.css'
 
-interface ITitle extends HTMLAttributes<HTMLParagraphElement> {
+interface ITitleProps extends HTMLAttributes<HTMLParagraphElement> {
   text: string;
   strong?: boolean;
 }
 
-export const Title: FC<ITitle> = ({
+export const Title: FC<ITitleProps> = ({
   text,
   strong = false,
   ...rest

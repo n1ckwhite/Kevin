@@ -6,7 +6,7 @@
     --typography-h1-semi-bold-mobile: normal 500 40px / 48px "Roboto", sans-serif;
 
     --typography-h2-semi-bold-desktop: normal 500 48px / 56px "Roboto", sans-serif;
-    --typography-h2-semi-bold-mobile: normal 500 32px / 40px "Roboto", sans-serif;
+    --typography-h2-semi-bold-mobile: normal 400 32px / 40px "Roboto", sans-serif;
 
     --typography-h3-semi-bold-desktop: normal 500 32px / 40px "Roboto", sans-serif;
     --typography-h3-semi-bold-mobile: normal 500 24px / 32px "Roboto", sans-serif;
@@ -16,7 +16,7 @@
 
     --typography-h5-semi-bold-desktop: normal 500 16px / 20px "Roboto", sans-serif;
     --typography-h5-semi-bold-mobile: normal 500 14px / 16px "Roboto", sans-serif;
-
+  --typography-large-text-regular: normal 400 20px / 28px "Roboto", sans-serif;
     --typography-big-text-regular: normal 400 16px / 24px "Roboto", sans-serif;
     --typography-big-text-medium: normal 500 16px / 24px "Roboto", sans-serif;
 
