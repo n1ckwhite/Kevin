@@ -3,13 +3,17 @@ import cn from 'classnames'
 
 import s from './Button.module.css'
 
-interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
   classname?: string;
 }
 
-export const Button: FC<IButton> = ({ text, classname, ...rest }) => (
+export const Button: FC<IButtonProps> = ({
+  text,
+  classname,
+  ...props
+}) => (
   <div className={cn(s.btn__tg, classname)}>
-    <button className={s.button} {...rest}>{text}</button>
+    <button className={s.button} {...props}>{text}</button>
   </div>
 )

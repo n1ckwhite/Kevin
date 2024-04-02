@@ -5,12 +5,12 @@ import { Icon } from "@/app/components/Icon"
 
 import s from './MenuModal.module.css'
 
-interface IMenuModal {
+interface IMenuModalProps {
   closeModal: () => void;
   modal: boolean;
 }
 
-export const MenuModal: FC<IMenuModal> = ({
+export const MenuModal: FC<IMenuModalProps> = ({
   closeModal,
   modal,
 }) => (

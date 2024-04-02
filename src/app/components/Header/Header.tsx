@@ -24,7 +24,10 @@ export const Header: FC = () => {
     <header className={s.header}>
       <div className={s.header__wrapper}>
         <div className={s.menu}>
-          <button className={s.btn} onClick={activeModal}>
+          <button
+            className={s.btn}
+            onClick={activeModal}
+          >
             <Icon name="menu" />
           </button>
           <Label />

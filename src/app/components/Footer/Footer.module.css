@@ -24,8 +24,6 @@
   color: var(--gradation-text-icons-basic-quaternary-color);
 }
 
-
-
 @media screen and (max-width: 900px) {
   .footer__wrapper {
     padding: 20px;

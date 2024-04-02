@@ -5,16 +5,18 @@ import { Subtitle } from '../../Subtitle/Subtitle'
 
 import s from './Card.module.css'
 
-interface ILink extends HTMLAttributes<HTMLParagraphElement> {
+interface ILinkProps extends HTMLAttributes<HTMLParagraphElement> {
   title: string;
   subtitle: string;
 }
 
-export const Card: FC<ILink> = ({
-  title, subtitle, ...rest
+export const Card: FC<ILinkProps> = ({
+  title,
+  subtitle,
+  ...props
 }) => (
   <div className={s.card}>
-    <div className={s.img} {...rest} />
+    <div className={s.img} {...props} />
     <div className={s.box}>
       <Title text={title} />
       <Subtitle text={subtitle} />

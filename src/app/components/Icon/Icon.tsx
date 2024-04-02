@@ -3,11 +3,11 @@ import Image from 'next/image'
 
 import { TIconType } from '@/types/icon.type'
 
-interface IIcon {
+interface IIconProps {
   name: TIconType;
 }
 
-export const Icon: FC<IIcon> = ({ name }) => (
+export const Icon: FC<IIconProps> = ({ name }) => (
   <Image
     alt="icon"
     height={20}

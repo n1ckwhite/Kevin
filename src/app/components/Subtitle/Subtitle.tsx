@@ -3,12 +3,12 @@ import cn from 'classnames'
 
 import s from './Subtitle.module.css'
 
-interface ISubtitle extends HTMLAttributes<HTMLParagraphElement> {
+interface ISubtitleProps extends HTMLAttributes<HTMLParagraphElement> {
   text: string;
   strong?: boolean;
 }
 
-export const Subtitle: FC<ISubtitle> = ({
+export const Subtitle: FC<ISubtitleProps> = ({
   text,
   strong = false, ...rest
 }) => (

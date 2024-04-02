@@ -10,7 +10,7 @@ interface IBook {
   id: number;
 }
 
-interface ITask {
+interface ITaskProps {
   book: IBook[],
   btnTitle: string,
   color?: 'default' | 'green' | 'gray',
@@ -18,7 +18,7 @@ interface ITask {
   mobile?: string
 }
 
-export const Task:FC<ITask> = ({
+export const Task:FC<ITaskProps> = ({
   book,
   btnTitle,
   fontSizeTask = 'default',

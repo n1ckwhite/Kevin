@@ -7,13 +7,17 @@ import { Icon } from "@/app/components/Icon"
 
 import s from "./Accordion.module.css"
 
-interface IAccordion {
+interface IAccordionProps {
   title: string;
   text: string;
   id: number;
 }
 
-export const Accordion: FC<IAccordion> = ({ title, text, id }) => {
+export const Accordion: FC<IAccordionProps> = ({
+  title,
+  text,
+  id,
+}) => {
   const [isActive, setIsActive] = useState(false)
 
   useEffect(() => {
