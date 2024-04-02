@@ -68,3 +68,9 @@
   font: var(--typography-big-text-regular);
   color: var(--gradation-text-icons-basic-quaternary-color);
 }
+
+@media screen and (max-width: 900px) {
+  .message {
+    width: 100%;
+  }
+}

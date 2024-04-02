@@ -37,7 +37,6 @@ export const KevinMessage: FC = () => (
               fill="#F2F3F4"
             />
           </svg>
-
         </div>
       </div>
     </div>

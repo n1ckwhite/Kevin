@@ -34,5 +34,6 @@
     padding: 8px;
     height: 40px;
     box-shadow: none;
+    max-width: 100%;
   }
 }

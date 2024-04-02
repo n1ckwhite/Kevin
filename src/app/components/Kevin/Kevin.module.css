@@ -5,7 +5,16 @@
 
 .wrapper__scroll {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  gap: 144px;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    padding: 80px 0;
+  }
+  .wrapper__scroll {
+    gap: 80px;
+  }
 }

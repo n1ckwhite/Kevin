@@ -1,4 +1,6 @@
-import { FC } from "react"
+import {
+  FC,
+} from "react"
 
 import { KevinMessage } from "./components/KevinMessage"
 import { KevinTitle } from "./components/KevinTitle"
@@ -10,6 +12,5 @@ export const Kevin: FC = () => (
       <KevinTitle />
       <KevinMessage />
     </div>
-
   </div>
 )
