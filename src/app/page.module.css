@@ -2,9 +2,16 @@
   margin-top: 80px;
 }
 
+.page {
+  padding-bottom: 24px;
+  box-sizing: border-box;
+}
 
 @media screen and (max-width: 900px) {
   .wrapper {
     margin-top: 73px;
+  }
+  .page {
+    padding-bottom: 0;
   }
 }

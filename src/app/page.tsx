@@ -1,5 +1,7 @@
 import "./assets/styles/main.css"
 
+import { Kevin } from "@/app/components/Kevin"
+
 import { Header } from "./components/Header"
 import { Times } from "./components/Times"
 import { Footer } from "./components/Footer"
@@ -8,9 +10,10 @@ import { Helper } from "./components/Helper"
 import s from './page.module.css'
 
 const Home = () => (
-  <div>
+  <div className={s.page}>
     <Header />
     <div className={s.wrapper}>
+      <Kevin />
       <Helper />
       <Times />
       <Faq />
