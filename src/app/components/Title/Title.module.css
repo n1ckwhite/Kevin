@@ -2,7 +2,7 @@
   margin: 0;
   letter-spacing: 0;
   text-align: center;
-  color: #454754;
+  color: var(--gradation-text-icons-basic-tertiary);
   white-space: nowrap;
   font: var(--typography-h3-semi-bold-desktop);
 }
@@ -11,27 +11,21 @@
   font: var(--typography-h2-semi-bold-desktop);
 }
 
-@media (max-width:600px) {
+@media (max-width:770px) {
   .text {
     font: var(--typography-h4-semi-bold-desktop);
   }
-
   .text_strong {
     font: var(--typography-h3-semi-bold-desktop);
   }
 }
 
-
 @media (max-width:360px) {
   .text {
-    width: 280px;
     font: var(--typography-h3-semi-bold-mobile);
-    text-align: left;
   }
 
   .text_strong {
-    width: 320px;
     font: var(--typography-h2-semi-bold-mobile);
-    text-align: center;
   }
 }

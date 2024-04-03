@@ -8,7 +8,14 @@ interface ILabelProps {
 }
 
 export const Label: FC<ILabelProps> = ({ theme = 'light' }) => (
-  <p className={cn(s.text, theme === 'light' && s.text_light, theme === 'black' && s.text_black)}>
+  <p className={cn(
+    s.text,
+    theme === 'light'
+    && s.text_light,
+    theme === 'black'
+    && s.text_black,
+  )}
+  >
     Kevin
     <span className={s.dot}>.</span>
     bot

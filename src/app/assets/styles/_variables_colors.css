@@ -6,7 +6,9 @@
     --gradation-text-icons-basic-quaternary-color: #94959E;
     --gradation-surface-secondary: #f2f3f4;
     --gradation-text-icons-basic-primary: #090a0e;
+    --gradation-text-icons-basic-secondary: #20222c;
     --gradation-surface-secondary-color: #F2F3F4;
+    --gradation-text-icons-basic-tertiary: #454754;
 
   /* blue */
   --blue-light-border: 1px solid rgba(233, 235, 248, 1);

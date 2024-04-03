@@ -1,4 +1,4 @@
-.section{
+.section {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -14,7 +14,7 @@
   max-width: 608px;
 }
 
-.card__default{
+.card__default {
   background: var(--gradation-surface-secondary);
   display: flex;
   flex-direction: column;
@@ -49,8 +49,8 @@
 }
 
 .body__card_active {
-    max-height: 200px;
-    transition: .2s;
+  max-height: 200px;
+  transition: .2s;
 }
 
 .card__icon {
@@ -80,7 +80,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .body__card{
+  .body__card {
     font: var(--typography-big-text-regular)
   }
 }

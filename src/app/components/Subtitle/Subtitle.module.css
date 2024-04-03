@@ -1,28 +1,6 @@
 .text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
+  font: var(--typography-big-text-regular);
   text-align: center;
-  color: #454754;
+  color: var(--gradation-text-icons-basic-tertiary);
   font: var(--typography-helper-h1-text-vf);
-}
-
-
-@media (max-width:600px) {
-  .text {
-    font: var(--typography-big-text-regular);
-  }
-  .text .text_strong {
-    font: var(--typography-big-text-regular);
-  }
-}
-
-@media (max-width:360px) {
-  .text {
-    font: var(--typography-big-text-regular);
-  }
-  .text_strong {
-    font: var(--typography-big-text-regular);
-  }
 }

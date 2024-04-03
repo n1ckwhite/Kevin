@@ -1,48 +1,19 @@
 .text {
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 56px;
-  letter-spacing: 0;
+  font: var(--typography-h2-semi-bold-desktop);
   text-align: center;
-  color: #090A0E;
+  color: var(--gradation-text-icons-basic-primary);
+  max-width: 608px;
 }
 
-.colorText{
+.strong {
   color: #2E6FD1;
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 56px;
-  letter-spacing: 0;
-  text-align: center;
 }
 
 @media screen and (max-width: 770px) {
   .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font: var(--typography-h2-semi-bold-mobile);
   }
-  .colorText {
+  .strong {
     font: var(--typography-h2-semi-bold-mobile);
-  }
-}
-
-@media (max-width:360px) {
-  .title__mobile{
-    width: 320px;
-  }
-
-  .text {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .colorText{
-    color: #2E6FD1;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 40px;
   }
 }

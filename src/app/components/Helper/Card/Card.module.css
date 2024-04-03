@@ -41,7 +41,7 @@
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #454754;
+  color: var(--gradation-text-icons-basic-tertiary);
   font: var(--typography-helper-h1-text-vf);
 }
 

@@ -8,9 +8,9 @@ import { Icon } from "@/app/components/Icon"
 import s from "./Accordion.module.css"
 
 interface IAccordionProps {
-  title: string;
-  text: string;
-  id: number;
+  title: string
+  text: string
+  id: number
 }
 
 export const Accordion: FC<IAccordionProps> = ({

@@ -1,6 +1,7 @@
 import "./assets/styles/main.css"
 
 import { Kevin } from "@/app/components/Kevin"
+import { Bot } from "@/app/components/Bot"
 
 import { Header } from "./components/Header"
 import { Times } from "./components/Times"
@@ -14,6 +15,7 @@ const Home = () => (
     <Header />
     <div className={s.wrapper}>
       <Kevin />
+      <Bot />
       <Helper />
       <Times />
       <Faq />

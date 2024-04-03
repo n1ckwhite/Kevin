@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { TIconType } from '@/types/icon.type'
 
 interface IIconProps {
-  name: TIconType;
+  name: TIconType
 }
 
 export const Icon: FC<IIconProps> = ({ name }) => (

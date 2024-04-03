@@ -4,8 +4,8 @@ import cn from "classnames"
 import s from './Title.module.css'
 
 interface ITitleProps extends HTMLAttributes<HTMLParagraphElement> {
-  text: string;
-  strong?: boolean;
+  text: string
+  strong?: boolean
 }
 
 export const Title: FC<ITitleProps> = ({

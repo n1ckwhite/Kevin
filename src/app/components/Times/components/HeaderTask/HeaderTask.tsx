@@ -4,7 +4,7 @@ import cn from 'classnames'
 import s from './HeaderTask.module.css'
 
 interface IHeaderTaskProps {
-  text: string,
+  text: string
   background?: 'default' | 'green' | 'gray'
 }
 

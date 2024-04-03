@@ -28,19 +28,21 @@
   padding: 20px;
   box-sizing: border-box;
   background: var(--gradation-text-icons-basic-quaternary-color);
-  color: var(--white-color);
   display: flex;
   flex-direction: column;
   gap: 8px;
-  font: var(--typography-h1-semi-bold-mobile);
   position: relative;
 }
 
 .link {
+  width: 80%;
+  color: var(--white-color);
+  font: var(--typography-h1-semi-bold-mobile);
+  text-decoration: none;
   transition: .2s;
 }
 
-.link:hover {
+.link:active {
   opacity: .7;
 }
 

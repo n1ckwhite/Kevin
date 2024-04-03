@@ -12,30 +12,33 @@ import s from './Times.module.css'
 export const Times: FC = () => (
   <div className={s.container}>
     <TimesTitle
+      strong="экономит ваше время"
       text="Наше решение "
-      textColor="экономит"
-      textColorTwo="ваше время"
     />
-    <Subtitle text="*Возможна необходимость в корректировках полученного результата" />
-    <div className={s.task}>
+    <Subtitle
+      text="*Возможна необходимость в корректировках полученного результата"
+    />
+    <div className={s.tasks}>
       <Task
-        book={BOOK.tasks}
-        btnTitle="Задачи"
+        books={BOOK.tasks}
         color="default"
-        fontSizeTask="small"
+        size="small"
+        title="Задачи"
       />
       <Task
-        book={BOOK.hours}
-        btnTitle="без Kevin"
+        books={BOOK.hours}
         color="gray"
-        mobile="mobile"
+        title="без Kevin"
       />
       <Task
-        book={BOOK.minutes}
-        btnTitle="c Kevin"
+        books={BOOK.minutes}
         color="green"
+        title="c Kevin"
       />
     </div>
-    <Button classname={s.btn} text="Перейти в телеграмм" />
+    <Button
+      classname={s.btn}
+      text="Перейти в телеграмм"
+    />
   </div>
 )

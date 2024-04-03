@@ -1,15 +1,13 @@
-.container{
+.container {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 1440px;
-  min-width: 320px;
   padding: 128px 104px 0;
   align-items: center;
 }
 
-.task {
+.tasks {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -24,8 +22,9 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .task{
+  .tasks {
     flex-direction: column;
+    margin-top: 40px;
   }
 }
 
@@ -35,9 +34,6 @@
   }
   .btn {
     margin-top: 32px;
-  }
-  .task{
-    margin-top: 40px;
   }
 }
 

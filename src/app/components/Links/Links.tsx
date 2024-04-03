@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import cn from 'classnames'
+import Link from "next/link"
 
 import s from './Links.module.css'
 
@@ -16,8 +17,8 @@ export const Links: FC<ILinksProps> = ({ background = 'default' }) => (
     && s.flex__tertiary,
   )}
   >
-    <span className={s.link}>Тарифы</span>
-    <span className={s.link}>Контакты</span>
-    <span className={s.link}>FAQ</span>
+    <Link className={s.link} href="/">Тарифы</Link>
+    <Link className={s.link} href="/">Контакты</Link>
+    <Link className={s.link} href="/">FAQ</Link>
   </div>
 )

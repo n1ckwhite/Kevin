@@ -6,8 +6,8 @@ import { Subtitle } from '../../Subtitle/Subtitle'
 import s from './Card.module.css'
 
 interface ILinkProps extends HTMLAttributes<HTMLParagraphElement> {
-  title: string;
-  subtitle: string;
+  title: string
+  subtitle: string
 }
 
 export const Card: FC<ILinkProps> = ({
