@@ -35,11 +35,25 @@
   box-sizing: border-box;
 }
 
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #454754;
+  font: var(--typography-helper-h1-text-vf);
+}
+
 @media (max-width:670px) {
   .card {
     max-width: 670px;
     min-width: 320px;
     width: 100%;
+  }
+  
+  .subtitle {
+    font: var(--typography-big-text-regular);
   }
 
   .img {

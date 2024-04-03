@@ -16,7 +16,6 @@ export const Subtitle: FC<ISubtitleProps> = ({
     className={
     cn(
       s.text,
-      strong && s.text_strong,
     )
 }
     {...rest}

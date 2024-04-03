@@ -19,7 +19,9 @@ export const Card: FC<ILinkProps> = ({
     <div className={s.img} {...props} />
     <div className={s.box}>
       <Title text={title} />
-      <Subtitle text={subtitle} />
+      <p className={s.subtitle}>
+        {subtitle}
+      </p>
     </div>
   </div>
 )

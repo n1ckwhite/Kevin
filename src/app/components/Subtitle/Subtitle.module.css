@@ -2,37 +2,27 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #454754;
   font: var(--typography-helper-h1-text-vf);
 }
 
-.text_strong {
-  max-width: 608px;
-  font: var(--typography-helper-h1-text-vf);
-  text-align: center;
-}
 
 @media (max-width:600px) {
   .text {
     font: var(--typography-big-text-regular);
-    text-align: left;
   }
-
-  .text_strong {
+  .text .text_strong {
     font: var(--typography-big-text-regular);
-    text-align: center;
   }
 }
 
 @media (max-width:360px) {
   .text {
     font: var(--typography-big-text-regular);
-    text-align: left;
   }
   .text_strong {
     font: var(--typography-big-text-regular);
-    text-align: center;
   }
 }
