@@ -8,7 +8,7 @@
   color: var(--blue-normal-color);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 770px) {
   .title {
     font: var(--typography-h1-semi-bold-mobile);
   }

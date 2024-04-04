@@ -31,7 +31,7 @@
   opacity: .7;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 770px) {
   .flex {
     flex-direction: column;
     gap: 12px

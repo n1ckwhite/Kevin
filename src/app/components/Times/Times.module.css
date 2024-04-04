@@ -21,7 +21,7 @@
   margin-top: 48px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
   .tasks {
     flex-direction: column;
     margin-top: 40px;

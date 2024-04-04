@@ -44,35 +44,14 @@
   color: var(--gradation-text-icons-basic-tertiary);
   font: var(--typography-helper-h1-text-vf);
 }
-
-@media (max-width:670px) {
+@media (max-width:770px) {
   .card {
-    max-width: 670px;
-    min-width: 320px;
     width: 100%;
+    margin: 0;
   }
-  
   .subtitle {
     font: var(--typography-big-text-regular);
   }
-
-  .img {
-    min-width: 320px;
-  }
-}
-
-@media (max-width:360px) {
-  .card {
-    margin: 0;
-    max-width: 320px;
-    height: 328px;
-  }
-
-  .img {
-    width: 320px;
-    max-height: 204px;
-  }
-
   .box {
     padding: 20px;
   }

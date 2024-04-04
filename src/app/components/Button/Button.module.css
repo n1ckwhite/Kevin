@@ -20,7 +20,7 @@
 .button:disabled {
   background: var(--blue-light-color);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .button {
     width: 100%;
     min-height: 40px;

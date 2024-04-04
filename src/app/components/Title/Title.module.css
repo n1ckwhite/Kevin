@@ -11,7 +11,7 @@
   font: var(--typography-h2-semi-bold-desktop);
 }
 
-@media (max-width:770px) {
+@media (max-width:1200px) {
   .text {
     font: var(--typography-h4-semi-bold-desktop);
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width:360px) {
+@media (max-width:770px) {
   .text {
     font: var(--typography-h3-semi-bold-mobile);
   }

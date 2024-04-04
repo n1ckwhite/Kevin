@@ -31,7 +31,7 @@
   background: var(--gradation-surface-secondary-color, #F2F3F4);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .header {
     padding: 0 16px;
     border-bottom: 1px solid var(--gradation-surface-secondary-color, #F2F3F4);

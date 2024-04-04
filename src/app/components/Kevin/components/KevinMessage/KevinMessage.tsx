@@ -16,6 +16,7 @@ export const KevinMessage: FC = () => (
       <p className={s.message__subtitle}>бот для продуктовой аналитики</p>
     </div>
     <div className={s.message__borders}>
+      <p className={s.msg}>1 новое сообщение</p>
       <div className={s.message__block}>
         <p className={s.message__text}>
           Создайте
@@ -40,6 +41,6 @@ export const KevinMessage: FC = () => (
         </div>
       </div>
     </div>
-    <Button text="Перейти в телеграм" />
+    <Button classname={s.btn} text="Перейти в телеграм" />
   </div>
 )

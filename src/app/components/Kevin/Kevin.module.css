@@ -10,9 +10,19 @@
   align-items: center;
 }
 
-@media screen and (max-width: 900px) {
+.title_scroll {
+  position: sticky;
+  top: 240px;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .title_scroll {
+    position: static;
+  }
   .wrapper {
-    padding: 80px 0;
+    padding: 80px 0 56px 0;
   }
   .wrapper__scroll {
     gap: 80px;

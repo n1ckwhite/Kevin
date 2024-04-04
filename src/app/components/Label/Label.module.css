@@ -27,7 +27,7 @@
   color: var(--blue-normal-color);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .text {
     padding: 8px;
     height: 40px;

@@ -24,7 +24,7 @@
   color: var(--gradation-text-icons-basic-quaternary-color);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .footer__wrapper {
     padding: 20px;
   }
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 770px) {
   .footer {
     padding: 0;
   }
