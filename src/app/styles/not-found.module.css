@@ -1,0 +1,31 @@
+.error {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 40px;
+}
+
+.title {
+  font: var(--typography-h1-semi-bold-desktop);
+  margin: 0;
+}
+
+.text {
+  font-size: var(--typography-large-text-regular);
+  max-width: 600px;
+  margin: 0;
+}
+
+@media screen and (max-width: 770px) {
+  .error {
+    padding: 0 20px;
+    gap: 20px;
+  }
+  .title {
+    font: var(--typography-h1-semi-bold-mobile);
+  }
+}

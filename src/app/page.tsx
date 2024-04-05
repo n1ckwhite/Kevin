@@ -8,7 +8,7 @@ import { Times } from "./components/Times"
 import { Footer } from "./components/Footer"
 import { Faq } from "./components/Faq"
 import { Helper } from "./components/Helper"
-import s from './page.module.css'
+import s from './styles/page.module.css'
 
 const Home = () => (
   <div className={s.page}>

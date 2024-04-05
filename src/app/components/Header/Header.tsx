@@ -4,7 +4,7 @@ import { FC, useState } from 'react'
 
 import { MenuModal } from "@/app/components/MenuModal"
 
-import { Button } from "../Button"
+import { CustomLink } from "../CustomLink"
 import { Icon } from '../Icon'
 import { Label } from '../Label'
 import { Links } from '../Links'
@@ -34,7 +34,7 @@ export const Header: FC = () => {
           <div className={s.header__links}>
             <Links background="tertiary" />
           </div>
-          <Button text="Перейти в телеграм" />
+          <CustomLink text="Перейти в телеграм" />
         </div>
       </div>
       <MenuModal closeModal={closeModal} modal={modal} />

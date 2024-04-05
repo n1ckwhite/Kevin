@@ -3,7 +3,7 @@ import { FC } from 'react'
 import { BOOK } from '@/constans'
 
 import { Subtitle } from '../Subtitle'
-import { Button } from '../Button'
+import { CustomLink } from '../CustomLink'
 
 import { Task } from './components/Task'
 import { TimesTitle } from './components/TimesTitle'
@@ -36,7 +36,7 @@ export const Times: FC = () => (
         title="c Kevin"
       />
     </div>
-    <Button
+    <CustomLink
       classname={s.btn}
       text="Перейти в телеграмм"
     />

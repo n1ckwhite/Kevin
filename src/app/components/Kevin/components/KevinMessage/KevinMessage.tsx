@@ -1,7 +1,6 @@
 import { FC } from "react"
 
-import { Button } from "@/app/components/Button"
-import { Icon } from "@/app/components/Icon"
+import { CustomLink } from "../../../CustomLink"
 
 import s from './KevinMessage.module.css'
 
@@ -41,6 +40,6 @@ export const KevinMessage: FC = () => (
         </div>
       </div>
     </div>
-    <Button classname={s.btn} text="Перейти в телеграм" />
+    <CustomLink classname={s.btn} text="Перейти в телеграм" />
   </div>
 )
