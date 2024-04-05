@@ -59,8 +59,7 @@
 .link:active {
   opacity: .7;
 }
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 770px) {
   .img {
     display: none;
   }

@@ -27,12 +27,14 @@
 }
 
 .title__card {
+  color: var(--gradation-text-icons-basic-primary);
   display: flex;
   justify-content: space-between;
   font: var(--typography-h4-semi-bold-desktop);
 }
 
 .body__card {
+  color: var(--gradation-text-icons-basic-primary);
   margin-top: 8px;
   font: var(--typography-large-text-regular);
   text-align: left;
@@ -42,6 +44,7 @@
 }
 
 .card__title_text {
+  color: var(--gradation-text-icons-basic-primary);
   max-width: 544px;
   text-overflow: ellipsis;
   white-space: nowrap;

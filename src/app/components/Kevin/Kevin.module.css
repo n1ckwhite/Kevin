@@ -17,7 +17,7 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 770px) {
   .title_scroll {
     position: static;
   }

@@ -80,7 +80,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 770px) {
   .message {
     width: 100%;
     align-items: stretch;
