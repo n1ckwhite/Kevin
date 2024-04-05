@@ -23,7 +23,7 @@ export const Bot: FC = () => (
         alt="icon"
         className={s.img}
         height="100"
-        src="/nextjs-github-pages/images/mobile.svg"
+        src="./images/mobile.svg"
         width="100"
       />
       <ul className={s.cards}>

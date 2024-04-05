@@ -1,9 +1,10 @@
 const nextConfig = {
   output: "export",
-  basePath: "/nextjs-github-pages",
   images: {
-    unoptimized: true,
+    loader: 'akamai',
+    path: '',
   },
+  assetPrefix: './',
 };
 
 export default nextConfig;
