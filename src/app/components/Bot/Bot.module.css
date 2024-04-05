@@ -59,7 +59,7 @@
 .link:active {
   opacity: .7;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1200px) {
   .img {
     display: none;
   }
@@ -67,7 +67,7 @@
     margin-top: 20px;
   }
   .bot {
-    padding: 20px;
+    padding: 80px;
   }
   .cards {
     margin: 0;
@@ -85,5 +85,11 @@
   .link {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .bot {
+    padding: 20px;
   }
 }

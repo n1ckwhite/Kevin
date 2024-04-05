@@ -1,13 +1,11 @@
 .card {
+  width: 100%;
   margin: 0;
   padding: 0;
-  width: 600px;
-  max-width: 100%;
   border-radius: 16px;
   background-color: #fff;
   color: #000;
   position: relative;
-  height: 474px;
   box-sizing: border-box;
 }
 
@@ -36,10 +34,7 @@
 }
 
 .subtitle {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
+  font: var(--typography-big-text-regular);
   text-align: left;
   color: var(--gradation-text-icons-basic-tertiary);
   font: var(--typography-helper-h1-text-vf);

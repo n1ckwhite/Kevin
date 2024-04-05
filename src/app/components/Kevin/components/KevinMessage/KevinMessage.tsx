@@ -6,7 +6,8 @@ import s from './KevinMessage.module.css'
 
 const date = new Date()
 const timeMinutes = (date.getMinutes() < 10 ? '0' : '') + date.getMinutes()
-const time = `${date.getHours()}:${timeMinutes}`
+const timeHours = (date.getHours() < 10 ? '0' : '') + date.getHours()
+const time = `${timeHours}:${timeMinutes}`
 
 export const KevinMessage: FC = () => (
   <div className={s.message}>

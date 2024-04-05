@@ -93,6 +93,10 @@
     margin-top: 16px;
   }
   .message__borders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 256px 20px 20px 20px;
   }
   .btn {
