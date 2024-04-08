@@ -18,7 +18,7 @@ export const Times: FC = () => (
     <Subtitle
       text="*Возможна необходимость в корректировках полученного результата"
     />
-    <div className={s.tasks}>
+    <ul className={s.tasks}>
       <Task
         books={BOOK.tasks}
         color="default"
@@ -35,7 +35,7 @@ export const Times: FC = () => (
         color="green"
         title="c Kevin"
       />
-    </div>
+    </ul>
     <CustomLink
       classname={s.btn}
       text="Перейти в телеграмм"

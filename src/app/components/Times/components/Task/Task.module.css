@@ -12,6 +12,7 @@
 .ul {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .card__li {
   padding: 16px 0;
@@ -32,6 +33,9 @@
 }
 
 @media screen and (max-width:770px) {
+  .ul {
+    align-items: center;
+  }
   .card:nth-child(2) {
     display: none;
   }

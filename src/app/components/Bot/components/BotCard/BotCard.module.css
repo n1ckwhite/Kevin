@@ -28,10 +28,12 @@
 }
 
 .title {
+  color: var(--gradation-text-icons-basic-primary);
   font: var(--typography-h4-semi-bold-desktop);
 }
 
 .subtitle {
+  color: var(--gradation-text-icons-basic-tertiary);
   font: var(--typography-large-text-regular);
 }
 
