@@ -1,3 +1,5 @@
+import { Images } from "@/constans/images"
+
 export const BOOK = {
   tasks: [
     { text: "Определение демографии аудитории", id: 1 },
@@ -20,10 +22,30 @@ export const BOOK = {
 }
 
 export const CARDS = [
-  { id: 1, title: "Продуктологи", subtitle: "Автоматизируйте свои рутинные задачи" },
-  { id: 2, title: "Менеджеры", subtitle: "Не тратьте время на сбор и аналитику информации" },
-  { id: 3, title: "Бизнесмены", subtitle: "Исследуйте рыночные ниши всего за пару минут" },
-  { id: 4, title: "IT – специалисты", subtitle: "Получите опыт в продуктовых исследованиях" },
+  {
+    id: 1,
+    title: "Продуктологи",
+    subtitle: "Автоматизируйте свои рутинные задачи",
+    img: Images.img1,
+  },
+  {
+    id: 2,
+    title: "Менеджеры",
+    subtitle: "Не тратьте время на сбор и аналитику информации",
+    img: Images.img2,
+  },
+  {
+    id: 3,
+    title: "Бизнесмены",
+    subtitle: "Исследуйте рыночные ниши всего за пару минут",
+    img: Images.img3,
+  },
+  {
+    id: 4,
+    title: "IT – специалисты",
+    subtitle: "Получите опыт в продуктовых исследованиях",
+    img: Images.img4,
+  },
 ]
 
 export const STEPS = [
@@ -42,44 +64,38 @@ export const STEPS = [
   {
     id: 3,
     step: "3 этап",
-    subtitle: "Kevin использует данные со всего интернета, поэтому ему может понадобится Ваша помощь",
+    subtitle:
+      "Kevin использует данные со всего интернета, поэтому ему может понадобится Ваша помощь",
     title: "Скорректируйте результат",
   },
   {
     id: 4,
     step: "4 этап",
     subtitle: "Получите готовый отчет",
-    title: "В результате работы бота вы получите структурированный продуктовый отчет",
+    title:
+      "В результате работы бота вы получите структурированный продуктовый отчет",
   },
 ]
 
 export const ACCORDIONS = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet consecrate "
-      + "Id fugitive morbid plate consecrate sed tells purus dolor portion."
-      + " Sultriness diam null am sapiens a squelchier ipsum",
+    text: "Lorem ipsum dolor sit amet consecrate Id",
     title: "Lorem ipsum, dolor sit amet consecrate?",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet consecrate "
-      + "Id fugitive morbid plate consecrate sed tells purus dolor portion."
-      + " Sultriness diam null am sapiens a squelchier ipsum",
+    text: "Lorem ipsum dolor sit amet consecrate Id",
     title: "Lorem ipsum, dolor sit amet consecrate?",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet consecrate "
-      + "Id fugitive morbid plate consecrate sed tells purus dolor portion."
-      + " Sultriness diam null am sapiens a squelchier ipsum",
+    text: "Lorem ipsum dolor sit amet consecrate Id",
     title: "Lorem ipsum, dolor sit amet consecrate?",
   },
   {
     id: 4,
-    text: "Lorem ipsum dolor sit amet consecrate "
-      + "Id fugitive morbid plate consecrate sed tells purus dolor portion."
-      + " Sultriness diam null am sapiens a squelchier ipsum",
+    text: "Lorem ipsum dolor sit amet consecrate Id",
     title: "Lorem ipsum, dolor sit amet consecrate?",
   },
 ]

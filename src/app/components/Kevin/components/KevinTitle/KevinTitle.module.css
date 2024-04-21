@@ -12,9 +12,6 @@
   .title {
     font: var(--typography-h1-semi-bold-mobile);
   }
-  .title__span {
-    color: var(--gradation-text-icons-basic-primary);
-  }
   .br {
     display: none;
   }

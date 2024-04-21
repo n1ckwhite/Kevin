@@ -1,6 +1,6 @@
-import { FC } from "react"
+import { FC } from "react";
 
-import s from './BotCard.module.css'
+import s from "./BotCard.module.css"
 
 interface IBotCardProps {
   step: string;

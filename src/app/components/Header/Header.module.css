@@ -5,7 +5,6 @@
   top: 0;
   left: 0;
   width: 100vw;
-  background: var(--white-color);
   z-index: 2;
 }
 
@@ -34,7 +33,6 @@
 @media screen and (max-width: 1200px) {
   .header {
     padding: 0 16px;
-    border-bottom: 1px solid var(--gradation-surface-secondary-color, #F2F3F4);
   }
   .header__wrapper {
     max-height: 72px;
@@ -44,5 +42,12 @@
   }
   .btn {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    background: var(--white-color);
+    border-bottom: 1px solid var(--gradation-surface-secondary-color, #F2F3F4);
   }
 }

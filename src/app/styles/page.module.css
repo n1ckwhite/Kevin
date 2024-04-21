@@ -1,16 +1,22 @@
-.wrapper {
-  margin-top: 80px;
-}
-
 .page {
   padding-bottom: 24px;
   box-sizing: border-box;
 }
 
+.wrapper {
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 @media screen and (max-width: 1200px) {
-  .wrapper {
-    margin-top: 73px;
-  }
   .page {
     padding-bottom: 0;
   }

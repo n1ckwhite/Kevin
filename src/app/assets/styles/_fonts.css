@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/Roboto-Regular.ttf') format('woff2');
+    src: url('../fonts/Roboto-Regular.ttf') format('ttf');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url('../fonts/Roboto-Medium.ttf') format('woff2');
+    src: url('../fonts/Roboto-Medium.ttf') format('ttf');
 }
 
 @font-face {
@@ -19,5 +19,5 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('../fonts/GolosText-SemiBold.ttf') format('woff2');
+  src: url('../fonts/GolosText-SemiBold.ttf') format('ttf');
 }

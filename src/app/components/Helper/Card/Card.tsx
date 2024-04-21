@@ -1,27 +1,26 @@
-import { FC, HTMLAttributes } from 'react'
+import { FC, HTMLAttributes } from "react"
+import Image, {StaticImageData} from "next/image"
 
-import { Title } from '../../Title/Title'
-import { Subtitle } from '../../Subtitle/Subtitle'
+import { Title } from "../../Title/Title"
 
-import s from './Card.module.css'
+import s from "./Card.module.css"
 
 interface ILinkProps extends HTMLAttributes<HTMLParagraphElement> {
   title: string
   subtitle: string
+  img: StaticImageData
 }
 
 export const Card: FC<ILinkProps> = ({
   title,
   subtitle,
-  ...props
-}) => (
+  img,
+  ...props }) => (
   <div className={s.card}>
-    <div className={s.img} {...props} />
+    <Image className={s.img} alt="изображение" src={img} />
     <div className={s.box}>
       <Title text={title} />
-      <p className={s.subtitle}>
-        {subtitle}
-      </p>
+      <p className={s.subtitle}>{subtitle}</p>
     </div>
   </div>
 )
