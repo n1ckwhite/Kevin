@@ -1,21 +1,17 @@
-import { FC } from "react"
+import { FC } from "react";
 
-import { CARDS } from "@/constans"
+import { CARDS } from "@/constans";
 
-import { Card } from "../Card"
+import { Card } from "../Card";
 
-import s from "./Cards.module.css"
+import s from "./Cards.module.css";
 
 export const Cards: FC = () => (
   <ul className={s.grid}>
     {CARDS.map((card) => (
       <li className={s.grid__card} key={card.id}>
-        <Card
-          img={card.img}
-          subtitle={card.subtitle}
-          title={card.title} />
+        <Card img={card.img} subtitle={card.subtitle} title={card.title} />
       </li>
-
     ))}
   </ul>
 );

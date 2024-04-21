@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import s from "./BotCard.module.css"
+import s from "./BotCard.module.css";
 
 interface IBotCardProps {
   step: string;
@@ -16,4 +16,4 @@ export const BotCard: FC<IBotCardProps> = ({ step, title, subtitle }) => (
       <p className={s.subtitle}>{subtitle}</p>
     </div>
   </div>
-)
+);
