@@ -13,13 +13,14 @@ interface ICustomLinkProps {
 export const CustomLink: FC<ICustomLinkProps> = ({
   text,
   classname,
-  link = '/',
+  link = "https://t.me/kevin_the_bot_news",
   ...props
 }) => (
   <div className={cn(s.btn__tg, classname)}>
     <Link
       className={s.button}
       href={link}
+      target="_blank"
       {...props}
     >
       {text}
