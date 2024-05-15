@@ -1,11 +1,11 @@
-import { ReactNode } from 'react'
+import { ReactNode } from "react";
 
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Kevin',
-  description: 'Kevin - телеграмм бот для продуктовой аналитики',
-}
+  title: "Kevin",
+  description: "Kevin - телеграм бот для продуктовой аналитики",
+};
 
 const RootLayout = ({
   children,
@@ -15,6 +15,6 @@ const RootLayout = ({
   <html lang="ru">
     <body>{children}</body>
   </html>
-)
+);
 
-export default RootLayout
+export default RootLayout;
